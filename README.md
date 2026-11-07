@@ -229,9 +229,10 @@ Dependencies are declared in requirements.txt.
 The following instructions use Windows PowerShell or command prompt(cmd).
 
 ##### Step 1: Clone the repository
-```git clone https://github.com/asongedithrosa-ai/trapro.git
-   
-   cd trapro
+```
+git clone https://github.com/asongedithrosa-ai/trapro.git
+cd trapro
+
 ```
 ##### Step 2: Create a virtual environment
 ```
@@ -243,17 +244,21 @@ python -m venv .venv
 
 If PowerShell blocks activation, use the virtual environment's Python executable directly:
 
-``` .\.venv\Scripts\python.exe --version 
+```
+ .\.venv\Scripts\python.exe --version 
+
 ```
 
 #### Step 4: Install dependencies
 ```
 python -m pip install -r requirements.txt
+
 ```
 
 If the virtual environment is not activated:
 ```
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+
 ```
 
 ##### Step 5: Create the environment file
@@ -304,21 +309,28 @@ After configuring the environment, apply database migrations:
 python manage.py migrate
 
 Create an administrator account:
-```python manage.py createsuperuser
+```
+python manage.py createsuperuser
+
 ```
 
 Check the project configuration:
-```python manage.py check
+```
+python manage.py check
+
 ```
 
 Check migration consistency:
 ```
 python manage.py makemigrations --check --dry-run
+
 ```
 
 ## 10. Run the development server
 Start Django:
-```python manage.py runserver
+```
+python manage.py runserver
+
 ```
 
 The local development server will normally be available at:
@@ -470,9 +482,12 @@ Contributors should:
 7. Update relevant documentation whenever API contracts or subsystem responsibilities change.
 8. Use clear, descriptive Git commit messages.
 Example:
-'git add .'
-'git commit -m "Add terminology candidate generation"'
+```
+git add .
 
+git commit -m "Add terminology candidate generation"
+
+```
 
 ## 17. Project status
 TRAPRO is under active development.
