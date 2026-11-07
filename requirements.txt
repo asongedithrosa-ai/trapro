@@ -3,3 +3,7 @@ djangorestframework
 django-cors-headers
 django-environ
 psycopg[binary]
+PyMuPDF
+openpyxl
+xlrd
+python-docx

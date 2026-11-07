@@ -1,0 +1,5 @@
+A contract creates obligations between parties.
+Those obligations must be performed in good faith.
+
+Civil liability arises from legally recognised conduct.
+It may result in an obligation to compensate for harm.
